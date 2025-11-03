@@ -53,22 +53,23 @@ ViTacGen comprises two components: 1) **VT-Gen** for vision-to-touch generation,
 
 ## Dependencies
 
-Create a new conda environment. My CUDA version (nvcc --version) is 12.4
-```bash  
-conda create -n vitacgen python=3.8  
-conda activate vitacgen
-pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
-``` 
-
-Install required packages.
-```bash  
-pip install -r requirements.txt
-``` 
 
 ## Usage
 
 
-### Data Usage
+### Pretrain expert policy
+
+
+### Collect visual-tactile data pairs
+
+
+### Train vision-to-touch generation (VT-Gen)
+
+
+### Train policy with vision-to-touch generation (VT-Con)
+
+
+### Evaluation and inference
 
 
 ## Citation
