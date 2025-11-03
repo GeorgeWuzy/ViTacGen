@@ -37,12 +37,19 @@ Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generati
     </a>
 </p>
 
-## Overview
-
-
 ## Checkpoints and Dataset Release
 
 We will soon release the checkpoints and dataset for vision-to-touch generation training. Stay tuned! 
+
+## Overview
+![Simulation Results](assets/sim.gif)
+![Unseen Objects](assets/unseen.gif)
+
+In this paper, we propose **ViTacGen**, a novel robot manipulation framework designed for visual robotic pushing with vision-to-touch generation in reinforcement learning to eliminate the reliance on high-resolution real tactile sensors, enabling effective zero-shot deployment on visual-only robotic systems.
+
+![Pipeline](assets/pipeline.gif)
+
+The workflow of our proposed ViTacGen comprises two components: a **VT-Gen** for vision-to-touch generation, and a **VT-Con** for reinforcement learning on visual and generated tactile contact depth images with contrastive learning.
 
 ## Dependencies
 
