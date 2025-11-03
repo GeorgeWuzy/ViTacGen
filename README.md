@@ -85,6 +85,10 @@ If you find this work helpful, please consider citing us using the following Bib
 }  
 ```
 
+## Acknowledgement
+
+Our code is based on [tactile gym 2](https://github.com/ac-93/tactile_gym) and [M2CURL](https://github.com/ligerfotis/M2CURL). We sincerely appreciate their excellent works.
+
 ## Contact
 
 If you have any questions, feel free to contact me through email at [zhiyuan.1.wu@kcl.ac.uk](mailto:zhiyuan.1.wu@kcl.ac.uk).
