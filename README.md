@@ -39,7 +39,7 @@ Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generati
 
 ## Checkpoints and Dataset Release
 
-We will soon release the checkpoints and dataset for vision-to-touch generation training. Stay tuned! 
+We will soon release our **checkpoints** and **dataset**. Stay tuned! 
 
 ## Overview
 ![Simulation Results](assets/sim.gif)
