@@ -53,6 +53,34 @@ ViTacGen comprises two components: 1) **VT-Gen** for vision-to-touch generation,
 
 ## Dependencies
 
+Create a new conda environment.
+
+```bash  
+conda create -n vitacgen python=3.10  
+conda activate vitacgen  
+```
+
+Install Pytorch and set up CUDA libraty path.
+
+```bash  
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+```
+
+Install required packages:
+
+```bash  
+pip install setuptools==65.5.0 "wheel<0.40.0"
+pip install pip==23.0
+pip install -r requirements.txt
+```
+
+Install stable-baselines3-contrib:
+
+```bash  
+cd stable-baselines3-contrib/
+python setup.py install
+```
 
 ## Usage
 
@@ -67,18 +95,11 @@ If you encounter xrc-related issues, try setting the QT_QPA_PLATFORM environment
 # During training, you may set:
 export QT_QPA_PLATFORM=offscreen
 
-# During inference, you may unset it:
+# During inference, you need to unset it:
 unset QT_QPA_PLATFORM
 ```
 
 You may adjust according to your device configuration.
-
-### Test the environment
-You can first start with visualizing the environment by:
-
-```bash
-python demo_push_env.py
-```
 
 ### Pretrain expert policy
 Pretrain visual-tactile expert policy (VT-Con) for data collection:
