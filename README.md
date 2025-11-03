@@ -1,5 +1,5 @@
 # ViTacGen Code and Data
-Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generation (RA-L 2025)**
+Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generation** (RA-L 2025)
 
 <span class="author-block">
   <a href="https://georgewuzy.github.io/" style="color: #4A90E2 !important;">Zhiyuan Wu</a><sup>1</sup>,
