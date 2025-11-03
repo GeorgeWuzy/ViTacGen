@@ -1,0 +1,22 @@
+<robot name="potted_meat_can">
+	<link name="_name">
+		<visual>
+			<origin xyz="0.04 0.02635271439745596 -0.03783085009135961" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="google_16k/textured.obj" scale="1 1 1" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="google_16k/textured_vhacd.obj" scale="1 1 1" />
+			</geometry>
+		<origin xyz="0.04 0.02635271439745596 -0.03783085009135961" rpy="0 0 0" /></collision>
+		<inertial>
+			<mass value="0.65" />
+			<inertia ixx="0.65" ixy="0.0" ixz="0.0" iyy="0.65" iyz="0.0" izz="0.65" />
+		</inertial>
+	</link>
+</robot>
