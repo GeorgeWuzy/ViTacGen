@@ -49,7 +49,7 @@ In this paper, we propose **ViTacGen**, a novel robot manipulation framework des
 
 ![Pipeline](assets/pipeline.gif)
 
-The workflow of our proposed ViTacGen comprises two components: a **VT-Gen** for vision-to-touch generation, and a **VT-Con** for reinforcement learning on visual and generated tactile contact depth images with contrastive learning.
+ViTacGen comprises two components: 1) **VT-Gen** for vision-to-touch generation, and 2) **VT-Con** for reinforcement learning on visual and generated tactile contact depth images with contrastive learning.
 
 ## Dependencies
 
