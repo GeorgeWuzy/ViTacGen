@@ -32,7 +32,7 @@ Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generati
     <a href='https://arxiv.org/pdf/2510.14117'>
       <img src='https://img.shields.io/badge/Paper-PDF-FF9547?style=plastic&logo=adobeacrobatreader&logoColor=FF9547' alt='Paper PDF'>
     </a>
-    <a href='#'>
+    <a href='https://robot-perception-lab.github.io/vitacgen-website/'>
       <img src='https://img.shields.io/badge/Project-Page-66C0FF?style=plastic&logo=Google%20chrome&logoColor=66C0FF' alt='Project Page'>
     </a>
 </p>
