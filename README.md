@@ -67,7 +67,7 @@ If you encounter xrc-related issues, try setting the QT_QPA_PLATFORM environment
 # During training, you may set:
 export QT_QPA_PLATFORM=offscreen
 
-# During inference, you need to unset it:
+# During inference, you may unset it:
 unset QT_QPA_PLATFORM
 ```
 
