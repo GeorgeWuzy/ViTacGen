@@ -73,6 +73,13 @@ unset QT_QPA_PLATFORM
 
 You may adjust according to your device configuration.
 
+### Test the environment
+You can first start with visualizing the environment by:
+
+```bash
+python demo_push_env.py
+```
+
 ### Pretrain expert policy
 Pretrain visual-tactile expert policy (VT-Con) for data collection:
 
