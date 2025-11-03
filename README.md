@@ -56,21 +56,59 @@ ViTacGen comprises two components: 1) **VT-Gen** for vision-to-touch generation,
 
 ## Usage
 
+Set up the Python path:
+```bash  
+export PYTHONPATH=./  
+```
+
+If you encounter xrc-related issues, try setting the QT_QPA_PLATFORM environment variable. 
+
+```bash  
+# During training, you may set:
+export QT_QPA_PLATFORM=offscreen
+
+# During inference, you need to unset it:
+unset QT_QPA_PLATFORM
+```
+
+You may adjust according to your device configuration.
 
 ### Pretrain expert policy
+Pretrain visual-tactile expert policy (VT-Con) for data collection:
 
+```bash  
+python tactile_gym/sb3_helpers/train_agent.py --exp_name vtcon -A mvitac_sac --features_extractor_class VisualTactileCMCL --seed 0 --learning_rate 1e-4
+```
 
 ### Collect visual-tactile data pairs
+Collect paired visual-tactile data with expert policy:
 
+```bash  
+python tactile_gym/sb3_helpers/data_collection.py # Replace saved_model_dir with the path to your pretrained model
+```
 
 ### Train vision-to-touch generation (VT-Gen)
+Train VT-Gen for vision-to-touch generation:
 
+```bash  
+cd vtgen
+python train.py 
+cd ..
+```
 
-### Train policy with vision-to-touch generation (VT-Con)
+### Train policy with vision-to-touch generation (ViTacGen)
+Train visual-only ViTacGen policy:
 
+```bash  
+python tactile_gym/sb3_helpers/train_agent.py --exp_name vitacgen -A mvitac_sac --features_extractor_class VisualCMCL_atten --seed 0 --learning_rate 1e-4
+```
 
 ### Evaluation and inference
+Evaluate ViTacGen:
 
+```bash  
+python tactile_gym/sb3_helpers/eval_agent_utils.py
+```
 
 ## Citation
 
