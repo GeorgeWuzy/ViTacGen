@@ -1,4 +1,4 @@
-# ViTacGen Code and Data
+# ViTacGen Code (RA-L 2025)
 Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generation** (RA-L 2025)
 
 <span class="author-block">
@@ -36,10 +36,6 @@ Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generati
       <img src='https://img.shields.io/badge/Project-Page-66C0FF?style=plastic&logo=Google%20chrome&logoColor=66C0FF' alt='Project Page'>
     </a>
 </p>
-
-## Checkpoints and Dataset Release
-
-We will soon release our **checkpoints** and **dataset**. Stay tuned! 
 
 ## Overview
 ![Simulation Results](assets/sim.gif)
