@@ -1,4 +1,4 @@
-# ViTacGen Code (RA-L 2025)
+# ViTacGen Code (RA-L 2025 & ICRA 2026)
 Official Repository of **ViTacGen: Robotic Pushing with Vision-to-Touch Generation** (RA-L 2025 & ICRA 2026)
 
 <span class="author-block">
